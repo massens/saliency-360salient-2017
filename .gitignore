@@ -1,0 +1,5 @@
+env
+pathnet_model_v3.h5
+pathnet_model_v1.h5
+*.pyc
+.ipynb_checkpoints/
