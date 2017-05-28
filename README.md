@@ -1,35 +1,28 @@
-# SalGAN: Visual Saliency Prediction with Generative Adversarial Networks
+# Scan-path Prediction on 360◦ Images using Saliency Volumes
 
-| ![Junting Pan][JuntingPan-photo]  | ![Cristian Canton Ferrer][CristianCanton-photo]  |  ![Kevin McGuinness][KevinMcGuinness-photo] | ![Noel O'Connor][NoelOConnor-photo] | ![Jordi Torres][JordiTorres-photo] |![Elisa Sayrol][ElisaSayrol-photo]  | ![Xavier Giro-i-Nieto][XavierGiro-photo]  |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| [Junting Pan][JuntingPan-web]  | [Cristian Canton Ferrer][CristianCanton-web] | [Kevin McGuinness][KevinMcGuinness-web] | [Noel O'Connor][NoelOConnor-web] |  [Jordi Torres][JordiTorres-web] | [Elisa Sayrol][ElisaSayrol-web]  | [Xavier Giro-i-Nieto][XavierGiro-web]   |
+| ![Marc Assens][MarcAssens-photo] | ![Kevin McGuinness][KevinMcGuinness-photo] | ![Xavier Giro-i-Nieto][XavierGiro-photo]| ![Noel O'Connor][NoelOConnor-photo] |
+|:-:|:-:|:-:|:-:|
+| [Marc Assens][MarcAssens-web]  | [Kevin McGuinness][KevinMcGuinness-web]  | [Xavier Giro-i-Nieto][XavierGiro-web] | [Noel O'Connor][NoelOConnor-web]   |
 
-[JuntingPan-web]: https://www.linkedin.com/in/junting-pan
-[CristianCanton-web]: https://cristiancanton.github.io/
+[MarcAssens-web]: https://www.linkedin.com/in/marc-assens-reina-5b1090bb/
 [KevinMcGuinness-web]: https://www.insight-centre.org/users/kevin-mcguinness
-[JordiTorres-web]: jorditorres.org
-[ElisaSayrol-web]: https://imatge.upc.edu/web/people/elisa-sayrol
 [NoelOConnor-web]: https://www.insight-centre.org/users/noel-oconnor
 [XavierGiro-web]: https://imatge.upc.edu/web/people/xavier-giro
 
-[JuntingPan-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JuntingPan.jpg "Junting Pan"
+[MarcAssens-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JuntingPan.jpg "Junting Pan"
 [KevinMcGuinness-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/Kevin160x160%202.jpg?token=AFOjyZmLlX3ZgpkNe60Vn3ruTsq01rD9ks5YdAaiwA%3D%3D "Kevin McGuinness"
-[CristianCanton-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/CristianCanton.jpg?token=AFOjyS9qMOnUPVLZpqN80ChO0R-x0SI5ks5Yc3qJwA%3D%3D "Cristian Canton"
-[JordiTorres-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/JordiTorres.jpg?token=AFOjyUaOhEyX2MGayU2C4tExpQeT0jFUks5Yc3vcwA%3D%3D
-[ElisaSayrol-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/ElisaSayrol.jpg "Elisa Sayrol"
-[NoelOConnor-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/NoelOConnor.jpg "Noel O'Connor"
 [XavierGiro-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/XavierGiro.jpg "Xavier Giro-i-Nieto"
+[NoelOConnor-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/NoelOConnor.jpg "Noel O'Connor"
+
 
 A joint collaboration between:
 
-| ![logo-insight] | ![logo-dcu] | ![logo-microsoft] |![logo-bsc] | ![logo-gpi] |
-|:-:|:-:|:-:|:-:|:-:|
-| [Insight Centre for Data Analytics][insight-web] | [Dublin City University (DCU)][dcu-web] | [Microsoft][microsoft-web]|[Barcelona Supercomputing Center][bsc-web] | [UPC Image Processing Group][gpi-web] |
+| ![logo-insight] | ![logo-dcu] | ![logo-gpi] |
+|:-:|:-:|:-:|
+| [Insight Centre for Data Analytics][insight-web] | [Dublin City University (DCU)][dcu-web] | [UPC Image Processing Group][gpi-web] |
 
 [insight-web]: https://www.insight-centre.org/ 
 [dcu-web]: http://www.dcu.ie/
-[microsoft-web]: https://www.microsoft.com/en-us/research/
-[bsc-web]: https://www.bsc.es/
 [upc-web]: http://www.upc.edu/?set_language=en
 [etsetb-web]: https://www.etsetb.upc.edu/en/ 
 [gpi-web]: https://imatge.upc.edu/web/ 
@@ -37,8 +30,6 @@ A joint collaboration between:
 
 [logo-insight]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/insight.jpg "Insight Centre for Data Analytics"
 [logo-dcu]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/dcu.png "Dublin City University"
-[logo-microsoft]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/logos/microsoft.jpg?token=AFOjyc8Q1kkjcWIP-yen0FTEo0lsWPk6ks5Yc3j4wA%3D%3D "Microsoft"
-[logo-bsc]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/logos/bsc320x86.jpg?token=AFOjyWSHWWVvzTXnYh1DiFvH2VoWykA3ks5Yc6Q1wA%3D%3D
 [logo-upc]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/upc.jpg "Universitat Politecnica de Catalunya"
 [logo-etsetb]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/etsetb.png "ETSETB TelecomBCN"
 [logo-gpi]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/gpi.png "UPC Image Processing Group"
@@ -46,109 +37,65 @@ A joint collaboration between:
 
 ## Abstract
 
-We introduce SalGAN, a deep convolutional neural network for visual saliency prediction trained with adversarial examples.
-The first stage of the network consists of a generator model whose weights are learned by back-propagation computed from a binary cross entropy (BCE) loss over downsampled versions of the saliency maps. The resulting prediction is processed by a discriminator network trained to solve a binary classification task between the saliency maps generated by the generative stage and the ground truth ones. Our experiments show how adversarial training allows reaching state-of-the-art performance across different metrics when combined with a widely-used loss function like BCE.
-
-## Slides
-
-<center>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5cXl80Fm2c3ksg" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/xavigiro/salgan-visual-saliency-prediction-with-generative-adversarial-networks" title="SalGAN: Visual Saliency Prediction with Generative Adversarial Networks" target="_blank">SalGAN: Visual Saliency Prediction with Generative Adversarial Networks</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/xavigiro">Xavier Giro</a></strong> </div>
-</center>
+We introduce a deep neural network for scan-path predic- tion trained on 360◦ images, and a temporal-aware novel representation of saliency information named saliency vol- ume. The first stage of the network consits of a model trained to generate saliency volumes, whose weights are learned by back-propagation computed from a binary cross en- tropy (BCE) loss over downsampled versions of the saliency volumes. Sampling strategies are used to generate scan- paths from saliency volumes. Our experiments show the advantages of using saliency volumes, and how they can be used for related tasks. 
 
 ## Publication
 
-Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1701.01081).
+Find the pre-print version of our work on [arXiv](https://arxiv.org/...).
 
 ![Image of the paper](https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/figs/thumbnails.jpg)
 
 Please cite with the following Bibtex code:
 
 ```
-@InProceedings{Pan_2017_SalGAN,
-author = {Pan, Junting and Canton, Cristian and McGuinness, Kevin and O'Connor, Noel E. and Torres, Jordi and Sayrol, Elisa and Giro-i-Nieto, Xavier and},
-title = {SalGAN: Visual Saliency Prediction with Generative Adversarial Networks},
+@InProceedings{Assens_2017_360Salient,
+author = {Assens, Marc and McGuinness, Kevin and Giro, Xavier and O'Connor, Noel E.},
+title = {Scan-path Prediction on 360 Images using Saliency Volumes},
 booktitle = {arXiv},
-month = {January},
+month = {March},
 year = {2017}
 }
 ```
 
 You may also want to refer to our publication with the more human-friendly Chicago style:
 
-*Junting Pan, Cristian Canton, Kevin McGuinness, Noel E. O'Connor, Jordi Torres, Elisa Sayrol and Xavier Giro-i-Nieto. "SalGAN: Visual Saliency Prediction with Generative Adversarial Networks." arXiv. 2017.*
+*Marc Assens,  Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O'Connor. "Scan-path Prediction on 360 Images using Saliency Volumes." arXiv. 2017.*
 
 
 
 ## Models
 
-The SalGAN presented in our work can be downloaded from the links provided below the figure:
+The scan-path generator presented in our work can be downloaded from the links provided below the figure:
 
-SalGAN Architecture
+Model Architecture
 ![architecture-fig]
 
-* [[SalGAN Generator Model (127 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/gen_modelWeights0090.npz)
-* [[SalGAN Discriminator (3.4 MB)]](https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2017-salgan/discrim_modelWeights0090.npz)
+* [[Scan-path generator model (100 MB)]](https://github.com/massens/saliency-360salient-2017/raw/master/pathnet_model_v2.h5)
 
 [architecture-fig]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/figs/fullarchitecture.jpg?token=AFOjyaH8cuBFWpldWWzo_TKVB-zekfxrks5Yc4NQwA%3D%3D "SALGAN architecture"
 [shallow-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/shallow_net.pickle
 [deep-model]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_model.caffemodel
 [deep-prototxt]: https://imatge.upc.edu/web/sites/default/files/resources/1720/saliency/2016-cvpr/deep_net_deploy.prototxt
 
-## Visual Results
-
-![Qualitative saliency predictions](https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/figs/qualitative.jpg?token=AFOjyaO0uT7l7qGzV7IyrcSgi8ieeayTks5Yc4s2wA%3D%3D)
-
-
 ## Datasets
 
 ### Training
-As explained in our paper, our networks were trained on the training and validation data provided by [SALICON](http://salicon.net/).
+As explained in our paper, our networks were trained on the training and validation data provided by [360 Salient Challenge](http://www.icme2017.org/grand-challenges/).
 
-### Test
-Two different dataset were used for test:
-* Test partition of [SALICON](http://salicon.net/) dataset.
-* [MIT300](http://saliency.mit.edu/datasets.html).
+## Software frameworks: Keras
 
-
-## Software frameworks
-
-Our paper presents two convolutional neural networks, one correspends to the Generator (Saliency Prediction Network) and the another is the Discriminator for the adversarial training. To compute saliency maps only the Generator is needed.
-
-### SalGAN on Lasagne
-
-SalGAN is implemented in [Lasagne](https://github.com/Lasagne/Lasagne), which at its time is developed over [Theano](http://deeplearning.net/software/theano/).
+The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [Theano](http://deeplearning.net/software/theano/).
 ```
-pip install -r https://github.com/imatge-upc/saliency-salgan-2017/blob/junting/requirements.txt
+pip install -r https://github.com/massens/saliency-360salient-2017/blob/master/requirements.txt
 ```
-
-### Usage
-
-To train our model from scrath you need to run the following command:
-```
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1,optimizer_including=cudnn python 02-train.py
-```
-In order to run the test script to predict saliency maps, you can run the following command after specifying the path to you images and the path to the output saliency maps:
-```
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,lib.cnmem=1,optimizer_including=cudnn python 03-predict.py
-```
-With the provided model weights you should obtain the follwing result:
-
-| ![Image Stimuli]  | ![Saliency Map]  |
-|:-:|:-:|
-
-[Image Stimuli]:https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/images/i112.jpg
-[Saliency Map]:https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/master/saliency/i112.jpg
-
-Download the pretrained VGG-16 weights from: [vgg16.pkl](https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/vgg16.pkl)
-
 
 ## Acknowledgements
 
-We would like to especially thank Albert Gil Moreno and Josep Pujal from our technical support team at the Image Processing Group at the UPC.
+We would like to especially thank Albert Gil Moreno from our technical support team at the Image Processing Group at the UPC.
 
-| ![AlbertGil-photo]  | ![JosepPujal-photo]  |
-|:-:|:-:|
-| [Albert Gil](AlbertGil-web)  |  [Josep Pujal](JosepPujal-web) |
+| ![AlbertGil-photo]  |
+|:-:|
+| [Albert Gil](AlbertGil-web)   |
 
 [AlbertGil-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/AlbertGil.jpg "Albert Gil"
 [JosepPujal-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JosepPujal.jpg "Josep Pujal"
@@ -171,18 +118,3 @@ We would like to especially thank Albert Gil Moreno and Josep Pujal from our tec
 ## Contact
 
 If you have any general doubt about our work or code which may be of interest for other researchers, please use the [public issues section](https://github.com/imatge-upc/saliency-salgan-2017/issues) on this github repo. Alternatively, drop us an e-mail at <mailto:xavier.giro@upc.edu>.
-
-<!---
-Javascript code to enable Google Analytics
--->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-7678045-13', 'auto');
-  ga('send', 'pageview');
-
-</script>
