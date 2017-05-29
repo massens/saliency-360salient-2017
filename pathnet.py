@@ -123,8 +123,8 @@ def predict(img_path):
 
 	    for j in range(n_samples):
 	        # [user, index, time, x, y]
-
-	        pos_1s = [i+1, j+1, j, s[j][0], s[j][1]]
+	        t = utils.get_duration_fixation()
+	        pos_1s = [i+1, j+1, t, s[j][0], s[j][1]]
 	        scanpaths.append(pos_1s)
 
 	# Generate a np.array to output
