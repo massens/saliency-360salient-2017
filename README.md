@@ -71,7 +71,7 @@ Model Architecture:
 ![architecture-fig]
 
 
-* [[Scan-path generator model (100 MB)]](https://github.com/massens/saliency-360salient-2017/raw/master/pathnet_model_v2.h5)
+* [[Scan-path generator model (100 MB)]](https://github.com/massens/saliency-360salient-2017/blob/master/src/pathnet_model_v2.h5)
 
 [architecture-fig]: https://github.com/massens/saliency-360salient-2017/raw/master/figs/model.png "Model architecture"
 
