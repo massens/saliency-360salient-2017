@@ -41,7 +41,7 @@ We introduce a deep neural network for scan-path predic- tion trained on 360◦ 
 
 ## Publication
 
-Find the pre-print version of our work on [arXiv](https://arxiv.org/...).
+Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1707.03123).
 
 ![Image of the paper](https://github.com/massens/saliency-360salient-2017/raw/master/figs/paper.png)
 
@@ -50,9 +50,9 @@ Please cite with the following Bibtex code:
 ```
 @InProceedings{Assens_2017_360Salient,
 author = {Assens, Marc and McGuinness, Kevin and Giro, Xavier and O'Connor, Noel E.},
-title = {Scan-path Prediction on 360 Images using Saliency Volumes},
+title = {SaltiNet: Scan-path Prediction on 360 Degree Images using Saliency Volumes},
 booktitle = {arXiv},
-month = {March},
+month = {July},
 year = {2017}
 }
 ```
@@ -62,6 +62,11 @@ You may also want to refer to our publication with the more human-friendly Chica
 *Marc Assens,  Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O'Connor. "Scan-path Prediction on 360 Images using Saliency Volumes." arXiv. 2017.*
 
 
+## Slides
+
+<center>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/crpL3byLoainOX" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/xavigiro/saltinet-the-temporal-dimension-of-visual-attention-models" title="SaltiNet: The Temporal Dimension of Visual Attention Models " target="_blank">SaltiNet: The Temporal Dimension of Visual Attention Models </a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/xavigiro">Xavier Giro-i-Nieto</a></strong> </div>
+</center>
 
 ## Models
 
