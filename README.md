@@ -48,18 +48,18 @@ Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1707.031
 Please cite with the following Bibtex code:
 
 ```
-@InProceedings{Assens_2017_360Salient,
-author = {Assens, Marc and McGuinness, Kevin and Giro, Xavier and O'Connor, Noel E.},
-title = {SaltiNet: Scan-path Prediction on 360 Degree Images using Saliency Volumes},
-booktitle = {arXiv},
-month = {July},
+@InProceedings{Reina_2017_ICCV_Workshops,
+author = {Assens Reina, Marc and Giró-i-Nieto, Xavier and McGuinness, Kevin and O'Connor, Noel E.},
+title = {SaltiNet: Scan-Path Prediction on 360 Degree Images Using Saliency Volumes},
+booktitle = {ICCV Workshop on Egocentric Perception, Interaction and Computing},
+month = {Oct},
 year = {2017}
 }
 ```
 
 You may also want to refer to our publication with the more human-friendly Chicago style:
 
-*Marc Assens,  Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O'Connor. "Scan-path Prediction on 360 Images using Saliency Volumes." arXiv. 2017.*
+*Marc Assens, Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O’Connor. “SaltiNet: Scan-Path Prediction on 360 Degree Images Using Saliency Volumes.” ICCV Workshop on Egocentric Perception, Interaction and Computing. 2017.*
 
 
 ## Slides
