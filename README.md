@@ -89,7 +89,7 @@ Saliency volumes aim to be a suitable representaiton of spatial and temporal sal
 ## Datasets
 
 ### Training
-As explained in our paper, our networks were trained on the training and validation data provided by [360 Salient Challenge](http://www.icme2017.org/grand-challenges/).
+As explained in our paper, our networks were trained on the training and validation data provided by [360 Salient Challenge](http://www.icme2017.org/grand-challenges/). Notice that, after our publication, this dataset has been updated and published in [this site](https://salient360.ls2n.fr/datasets/).
 
 ## Software frameworks: Keras
 
